@@ -1,0 +1,35 @@
+# === Python ===
+__pycache__/
+*.py[cod]
+*.so
+
+# === Jupyter Notebooks ===
+**/.ipynb_checkpoints/
+.ipynb_checkpoints/
+
+# === Data ===
+data/raw/
+data/processed/
+
+# === Environment Files ===
+.env
+.venv/
+venv/
+env/
+*.env
+
+# === VSCode/Editor Configs ===
+.vscode/
+.idea/
+
+# === OS Files ===
+.DS_Store
+Thumbs.db
+
+# === Model and Results Outputs ===
+models/
+results/
+
+# === Logs ===
+*.log
+logs/
