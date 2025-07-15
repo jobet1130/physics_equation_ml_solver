@@ -7,10 +7,6 @@ __pycache__/
 **/.ipynb_checkpoints/
 .ipynb_checkpoints/
 
-# === Data ===
-data/raw/
-data/processed/
-
 # === Environment Files ===
 .env
 .venv/
