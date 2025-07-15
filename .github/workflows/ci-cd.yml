@@ -35,8 +35,12 @@ jobs:
 
     - name: Execute Notebooks (smoke test)
       run: |
-        pip install nbconvert
-        find notebooks/ -name "*.ipynb" -exec jupyter nbconvert --to notebook --execute --inplace {} \;
+          pip install nbconvert
+          if [ -d notebooks ]; then
+            find notebooks/ -name "*.ipynb" -exec jupyter nbconvert --to notebook --execute --inplace {} \;
+          else
+            echo "No notebooks/ directory found. Skipping notebook execution."
+          fi
 
     - name: Run tests (optional)
       run: |
