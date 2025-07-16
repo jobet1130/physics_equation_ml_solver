@@ -1,1 +1,0 @@
-mul(add(X2, mul(sub(X2, X2), X0)), div(add(X0, sub(X0, X0)), add(X0, X0)))
