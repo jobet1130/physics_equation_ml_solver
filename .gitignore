@@ -22,10 +22,6 @@ env/
 .DS_Store
 Thumbs.db
 
-# === Model and Results Outputs ===
-models/
-results/
-
 # === Logs ===
 *.log
 logs/
